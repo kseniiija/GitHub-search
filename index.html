@@ -17,113 +17,114 @@
 
 </head>
 
-<body>
+<body class="light">
+  <div class="container">
+    <main>
+      <header>
+        <h3>Devfinder</h3>
 
-  <main>
+        <a class="mode" href="#" id="dark-mode">
+          <span>DARK</span>
+          <img src="./assets/icon-moon.svg" alt="Mode" />
+        </a>
 
-    <header>
+        <a class="mode" href="#" id="light-mode">
+          <span>LIGHT</span>
+          <img src="./assets/icon-sun.svg" alt="Mode" />
+        </a>
 
-      <h3>Devfinder</h3>
+      </header>
+      <form class="search-bar light" name="searchForm">
+        <img src="assets/icon-search.svg" alt="search icon" width="16" height="16">
+        <input class="search-input" type="text" placeholder="Search GitHub username...">
+        <button type="submit">Search</button>
 
-      <div>
-        <span>DARK</span>
-        <img src="./assets/icon-moon.svg" alt="icon-moon" width="16" height="16">
-      </div>
+      </form>
 
-    </header>
+      <section class="details-content light">
 
-    <form class="search-bar" name="searchForm">
+        <article class="user-block">
 
-      <img src="assets/icon-search.svg" alt="search icon" width="16" height="16">
-      <input class="search-input" type="text" placeholder="Search GitHub username...">
-      <button type="submit">Search</button>
-
-    </form>
-
-    <section class="details-content">
-
-      <article class="user-block">
-
-        <div class="avatar-wrapper">
-          <img class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=4 alt=" width="50" height="50">
-        </div>
-
-        <div class="right">
-
-          <div class="name-block">
-            <span class="full-name">The Octocat</span>
-            <span class="username">@octocat</span>
-          </div>
-          <span class="date">Joined 25 Jan 2011</span>
-        </div>
-
-      </article>
-
-      <article class="details">
-
-        <p class="bio">This profile has no bio</p>
-
-        <div class="first-info">
-
-          <div class="item">
-            <h3>
-              <span>Likes</span>
-            </h3>
-           <h1> <span>8</span> </h1>
+          <div class="avatar-wrapper">
+            <img class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=4 alt=" width="50" height="50">
           </div>
 
-          <div class="item">
-            <h3>
-              <span>Repos</span>
-            </h3>
-            <h1> <span>4052</span> </h1>
+          <div class="right">
+
+            <div class="name-block">
+              <span class="full-name">The Octocat</span>
+              <span class="username">@octocat</span>
+            </div>
+            <span class="date">Joined 25 Jan 2011</span>
           </div>
 
-          <div class="item">
-            <h3>
-              <span>Following</span>
-            </h3>
-            <h1><span>9</span> </h1>
-          </div>
+        </article>
 
-        </div>
+        <article class="details">
 
-        <div class="second-info">
+          <p class="bio">This profile has no bio</p>
 
-          <div class="group">
+          <div class="first-info light">
+
             <div class="item">
-              <img src="./assets/icon-location.svg" alt="location" width="16" height="16">
-              <span class="location">San Francisco</span>
+              <h3>
+                <span>Likes</span>
+              </h3>
+              <h1> <span>8</span> </h1>
             </div>
 
             <div class="item">
-              <img src="./assets/icon-twitter.svg" alt="icon-twitter" width="16" height="16">
-              <span>Not Available</span>
+              <h3>
+                <span>Repos</span>
+              </h3>
+              <h1> <span>4052</span> </h1>
+            </div>
+
+            <div class="item">
+              <h3>
+                <span>Following</span>
+              </h3>
+              <h1><span>9</span> </h1>
             </div>
 
           </div>
 
-          <div class="group">
-            <div class="item">
-              <img src="./assets/icon-website.svg" alt="icon-website" width="16" height="16">
-              <span class="link">https://github.blog/</span>
+          <div class="second-info">
+
+            <div class="group">
+              <div class="item">
+                <img src="./assets/icon-location.svg" alt="location" width="16" height="16">
+                <span class="location">San Francisco</span>
+              </div>
+
+              <div class="item">
+                <img src="./assets/icon-twitter.svg" alt="icon-twitter" width="16" height="16">
+                <span>Not Available</span>
+              </div>
+
             </div>
 
-            <div class="item">
-              <img src="./assets/icon-company.svg" alt="icon-company" width="16" height="16">
-              <span class="company">@github</span>
+            <div class="group">
+              <div class="item">
+                <img src="./assets/icon-website.svg" alt="icon-website" width="16" height="16">
+                <span class="link">https://github.blog/</span>
+              </div>
+
+              <div class="item">
+                <img src="./assets/icon-company.svg" alt="icon-company" width="16" height="16">
+                <span class="company">@github</span>
+              </div>
+
             </div>
+
 
           </div>
 
+        </article>
+      </section>
 
-        </div>
-
-      </article>
-    </section>
-
-  </main>
-
+    </main>
+  </div>
 </body>
 
 </html>
